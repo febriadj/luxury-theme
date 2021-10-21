@@ -1,0 +1,32 @@
+{
+    "name": "luxury-theme",
+    "displayName": "Luxury Theme",
+    "description": "Relaxing theme with luxurious and Elegant syntax coloring.",
+    "version": "1.0.0",
+    "icon": "assets/images/logo.png",
+    "publisher": "febriadji",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/febriadj/luxury-theme.git"
+    },
+    "bugs": {
+        "url": "https://github.com/febriadj/luxury-theme/issues"
+    },
+    "homepage": "https://github.com/febriadj/luxury-theme#readme",
+    "engines": {
+        "vscode": "^1.46.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Luxury Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/luxury-theme-color-theme.json"
+            }
+        ]
+    }
+}
